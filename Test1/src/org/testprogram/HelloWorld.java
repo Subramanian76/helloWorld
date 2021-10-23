@@ -45,10 +45,13 @@ public class HelloWorld {
 		li3.add(1);
 		li3.add(17);
 		
+		li2.addAll(li3);
+		
 		for(int s : li2) {
 			System.out.println(s);
 		}
 		
+		System.out.println("printing sorted list");
 		li2.sort(null);
 		System.out.println(li2);
 		
